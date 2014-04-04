@@ -21,6 +21,7 @@
 		1AC2E06F18EEB7C00087B690 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC2E05118EEB7C00087B690 /* UIKit.framework */; };
 		1AC2E07718EEB7C00087B690 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AC2E07518EEB7C00087B690 /* InfoPlist.strings */; };
 		1AC2E07918EEB7C00087B690 /* testAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2E07818EEB7C00087B690 /* testAppTests.m */; };
+		1AC2E08418EEC3BD0087B690 /* obj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC2E08318EEC3BD0087B690 /* obj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1AC2E07418EEB7C00087B690 /* testAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testAppTests-Info.plist"; sourceTree = "<group>"; };
 		1AC2E07618EEB7C00087B690 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AC2E07818EEB7C00087B690 /* testAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAppTests.m; sourceTree = "<group>"; };
+		1AC2E08218EEC3BD0087B690 /* obj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj.h; sourceTree = "<group>"; };
+		1AC2E08318EEC3BD0087B690 /* obj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = obj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				1AC2E05F18EEB7C00087B690 /* Main.storyboard */,
 				1AC2E06218EEB7C00087B690 /* ViewController.h */,
 				1AC2E06318EEB7C00087B690 /* ViewController.m */,
+				1AC2E08218EEC3BD0087B690 /* obj.h */,
+				1AC2E08318EEC3BD0087B690 /* obj.m */,
 				1AC2E06518EEB7C00087B690 /* Images.xcassets */,
 				1AC2E05418EEB7C00087B690 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				1AC2E06418EEB7C00087B690 /* ViewController.m in Sources */,
 				1AC2E05E18EEB7C00087B690 /* AppDelegate.m in Sources */,
 				1AC2E05A18EEB7C00087B690 /* main.m in Sources */,
+				1AC2E08418EEC3BD0087B690 /* obj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
